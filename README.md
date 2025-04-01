@@ -1,4 +1,3 @@
-
 # Python YAML Use Case  
 
 This project demonstrates how to read, display, and filter student data from a **YAML file** using **Python**. It includes a step-by-step guide for setting up and running the application.
@@ -10,6 +9,27 @@ This project demonstrates how to read, display, and filter student data from a *
 ✅ Display all student information  
 ✅ Filter students based on **minimum GPA**  
 ✅ User-friendly command-line interface  
+
+---
+
+## 📖 What is YAML?  
+YAML (**YAML Ain't Markup Language**) is a **human-readable data serialization format** that is commonly used for configuration files and data exchange between programming languages. It is easy to read and write, making it an excellent choice for storing structured data like JSON, but in a cleaner format.
+
+### 🔹 Key Features of YAML:
+- Uses **indentation** instead of brackets or tags.
+- **Lightweight and readable** format.
+- Supports **key-value pairs, lists, and nested structures**.
+- Used in **Docker, Kubernetes, Ansible, and other DevOps tools**.
+
+Example of a simple YAML structure:
+```yaml
+person:
+  name: John Doe
+  age: 30
+  address:
+    city: New York
+    zip: 10001
+```
 
 ---
 
@@ -159,4 +179,5 @@ Name: Eva, Age: 21, Major: Computer Science, GPA: 3.7
 🔹 **Sort students** by GPA or Name  
 🔹 **Add functionality** to update or delete students  
 🔹 **Save filtered results** back to YAML  
+
 
